@@ -5,8 +5,8 @@ import {
     TonConnectUI,
     UIPreferences,
     WalletsListConfiguration
-} from '@tonconnect/ui';
-import type { ITonConnect } from '@tonconnect/ui';
+} from 'delab-tonconnect-ui';
+import type { ITonConnect } from 'delab-tonconnect-ui';
 import { isClientSide } from '../utils/web';
 
 export const TonConnectUIContext = createContext<TonConnectUI | null>(null);
@@ -26,7 +26,7 @@ export interface TonConnectUIProviderPropsWithManifest {
 
 export interface TonConnectUIProviderPropsWithConnector {
     /**
-     * TonConnect instance. Can be helpful if you use custom ITonConnect implementation, or use both of @tonconnect/sdk and @tonconnect/ui in your app.
+     * TonConnect instance. Can be helpful if you use custom ITonConnect implementation, or use both of @tonconnect/sdk and delab-tonconnect-ui in your app.
      */
     connector: ITonConnect;
 }

@@ -1,4 +1,4 @@
-import { CHAIN, toUserFriendlyAddress } from '@tonconnect/ui';
+import { CHAIN, toUserFriendlyAddress } from 'delab-tonconnect-ui';
 import { useTonWallet } from './useTonWallet';
 
 /**

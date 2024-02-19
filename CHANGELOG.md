@@ -1,4 +1,4 @@
-# Changelog @tonconnect/ui-react 
+# Changelog delab-tonconnect-ui-react 
 
 ## [2.0.1-beta.0](https://github.com/ton-connect/sdk/compare/ui-react-2.0.0...ui-react-2.0.1-beta.0) (2024-01-08)
 
